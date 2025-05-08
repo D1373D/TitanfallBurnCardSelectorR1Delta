@@ -10,4 +10,19 @@ If you encounter issues contact me on discord:dogmeat137
 
 HOW TO USE
 ----------
+![Screenshot](https://github.com/D1373D/TitanfallBurnCardSelectorR1Delta/blob/main/Screenshot_ui.png)
+----------
 
+-Close the game;
+
+-Select a burn card from the list on the left;
+
+-Add it to either your equipped slots(the ones that are active ingame) on the top right corner(plus sign), or the inventory table beneath it(Add Card). The box next to the Add card button indicates the quantity added per button press;
+
+-After you assembled your deck, press Apply to modify your profile.cfg file;
+
+LOADOUTS
+----------
+-Save your current deck by selecting a loadout slot from the bottom right corner and pressing Save;
+
+-You can load it later by selecting the loadout slot and pressing load(will overwrite your current deck).
