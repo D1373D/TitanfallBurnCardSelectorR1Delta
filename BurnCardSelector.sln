@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurnCardSelector", "BurnCardSelector\BurnCardSelector.csproj", "{4282CF69-186A-48F4-97B8-410C97145BE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4282CF69-186A-48F4-97B8-410C97145BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4282CF69-186A-48F4-97B8-410C97145BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4282CF69-186A-48F4-97B8-410C97145BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4282CF69-186A-48F4-97B8-410C97145BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2693497-E30A-4181-BFF4-F8AE1F2EE87B}
+	EndGlobalSection
+EndGlobal
