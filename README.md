@@ -19,6 +19,8 @@ HOW TO USE
 
 -Add it to either your equipped slots(the ones that are active ingame) on the top right corner(plus sign), or the inventory table beneath it(Add Card). The box next to the Add card button indicates the quantity added per button press;
 
+-Remove cards from your deck by selecting the card from your inventory and pressing Clear;
+
 -After you assembled your deck, press Apply to modify your profile.cfg file;
 
 LOADOUTS
