@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Active_Camo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Active_Camo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adrenaline_Transfusion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Adrenaline_Transfusion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_40mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_40mm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Archer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Archer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Arc_Cannon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Arc_Cannon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_CAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_CAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Charge_Rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Charge_Rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Cluster_Missile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Cluster_Missile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_DMR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_DMR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Electric_Smoke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Electric_Smoke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_EVA8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_EVA8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_G2A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_G2A4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Hemlok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Hemlok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Kraber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Kraber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_LMG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_LMG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Mag_Launcher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Mag_Launcher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Missile_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Missile_System.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_P2011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_P2011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Particle_Wall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Particle_Wall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Quad_Rocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Quad_Rocket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_R101C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_R101C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_R97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_R97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Railgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Railgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_RE45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_RE45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Rocket_Salvo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Rocket_Salvo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Sidewinder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Sidewinder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Slaved_Warheads" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Slaved_Warheads.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Smart_Pistol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Smart_Pistol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Triple_Threat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Triple_Threat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Vortex_Shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Vortex_Shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_Wingman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_Wingman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amped_XO16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Amped_XO16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atlas_Refurb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Atlas_Refurb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aural_Implant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Aural_Implant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BCS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\UI\BCS.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bottomless_Frags" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Bottomless_Frags.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conscription" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Conscription.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Decisive_Action" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Decisive_Action.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Double_Agent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Double_Agent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Echo_Vision" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Echo_Vision.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosive_Punch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Explosive_Punch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fast_Learner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Fast_Learner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ghost_Squad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Ghost_Squad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Map_Hack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Map_Hack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Massive_Payload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Massive_Payload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\UI\minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Most_Wanted_List" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Most_Wanted_List.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Outsource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Outsource.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Packet_Sniffer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Packet_Sniffer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Personal_Alarm_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Personal_Alarm_System.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\UI\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prosthetic_Legs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Prosthetic_Legs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pull_Rank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Pull_Rank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rematch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Rematch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reserve_Ogre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Reserve_Ogre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roll_The_Dice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Roll_The_Dice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Satellite_Uplink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Satellite_Uplink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Select_A_Burn_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Select_A_Burn_Card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shock_Rocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Shock_Rocks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smuggled_Stimulant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Smuggled_Stimulant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spare_Stryder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Spare_Stryder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spectre_Camo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Spectre_Camo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spider_Sense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Spider_Sense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Charger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Super_Charger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Surplus_Satchels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Surplus_Satchels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thin_The_Ranks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Thin_The_Ranks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Titan_Salvage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Titan_Salvage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Turbo_Engine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Turbo_Engine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Urban_Renewal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\Urban_Renewal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WiFi_Virus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\WiFi_Virus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
