@@ -376,6 +376,7 @@ namespace BurnCardSelector
             if (cardIDInventoryDic.ContainsKey(selectedItemID) && CardInventoryTable.Rows.Count > 0)
             {
                 currentCardsInInv -= cardIDInventoryDic[selectedItemID];
+                UpdateMaxAddValue();
                 foreach (DataGridViewRow row in CardInventoryTable.Rows)
                 {
                     if (row.Cells["Card"].Value.ToString() == selectedItemName)
@@ -386,6 +387,7 @@ namespace BurnCardSelector
                     }
                 }
             }
+
 
         }
 
