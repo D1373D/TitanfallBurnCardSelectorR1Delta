@@ -293,12 +293,15 @@ namespace BurnCardSelector
             // 
             // richTextBox1
             // 
+            richTextBox1.BackColor = SystemColors.InactiveCaption;
+            richTextBox1.Font = new Font("Franklin Gothic Medium", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.Location = new Point(838, 573);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(279, 178);
+            richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox1.Size = new Size(334, 178);
             richTextBox1.TabIndex = 15;
-            richTextBox1.Text = "";
+            richTextBox1.Text = "For issues or questions please read the readme file on the github page:\nhttps://github.com/D1373D/TitanfallBurnCardSelectorR1Delta\n\n";
             // 
             // Form1
             // 
