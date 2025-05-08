@@ -8,6 +8,8 @@ BUILT AS A WINFORMS APP FOR R1DELTA 2.2.1
 
 If you encounter issues contact me on discord:dogmeat137
 
+Excuse the horrendous graphic design, this was my first time using winforms.
+
 HOW TO USE
 ----------
 ![Screenshot](https://github.com/D1373D/TitanfallBurnCardSelectorR1Delta/blob/main/Screenshot_ui.png)
