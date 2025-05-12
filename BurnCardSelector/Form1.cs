@@ -387,7 +387,11 @@ namespace BurnCardSelector
                     }
                 }
             }
-
+            if(CardInventoryTable.Rows.Count > 0)
+            {
+                selectedItemName = CardInventoryTable.Rows[0].Cells["Card"].Value.ToString();
+                selectedItemID = cardNameToCardID[selectedItemName];
+            }
 
         }
 
