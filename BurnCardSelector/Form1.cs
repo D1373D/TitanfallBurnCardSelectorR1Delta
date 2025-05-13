@@ -243,9 +243,9 @@ namespace BurnCardSelector
                 }
                 //ID on line 0, quantity on line 1
                 //save slot number i:a string to int dictionary--ID to its quantity saveSlots[slotnumber][ID on line k]=quantity on line k + 1
-                for (int k = 3; k < (loadoutRawSplit.Length-3) / 2; k += 2)
+                for (int k = 3; k < loadoutRawSplit.Length-1; k += 2)
                 {
-                    saveSlots[i][Regex.Replace(loadoutRawSplit[k+3], @"\r\n?|\n", "")] = int.Parse(Regex.Replace(loadoutRawSplit[k+4], @"\r\n?|\n", ""));
+                    saveSlots[i][Regex.Replace(loadoutRawSplit[k], @"\r\n?|\n", "")] = int.Parse(Regex.Replace(loadoutRawSplit[k+1], @"\r\n?|\n", ""));
                 }
             }
         }
