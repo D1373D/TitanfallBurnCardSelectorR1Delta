@@ -86,6 +86,7 @@ namespace BurnCardSelector
             EquippedCard0.Font = new Font("Franklin Gothic Medium", 10.8679247F, FontStyle.Bold);
             EquippedCard0.Location = new Point(840, 39);
             EquippedCard0.Name = "EquippedCard0";
+            EquippedCard0.ReadOnly = true;
             EquippedCard0.Size = new Size(174, 26);
             EquippedCard0.TabIndex = 4;
             EquippedCard0.Text = "Empty";
@@ -96,6 +97,7 @@ namespace BurnCardSelector
             EquippedCard1.Font = new Font("Franklin Gothic Medium", 10.8679247F, FontStyle.Bold);
             EquippedCard1.Location = new Point(840, 70);
             EquippedCard1.Name = "EquippedCard1";
+            EquippedCard1.ReadOnly = true;
             EquippedCard1.Size = new Size(174, 26);
             EquippedCard1.TabIndex = 4;
             EquippedCard1.Text = "Empty";
@@ -106,6 +108,7 @@ namespace BurnCardSelector
             EquippedCard2.Font = new Font("Franklin Gothic Medium", 10.8679247F, FontStyle.Bold);
             EquippedCard2.Location = new Point(840, 101);
             EquippedCard2.Name = "EquippedCard2";
+            EquippedCard2.ReadOnly = true;
             EquippedCard2.Size = new Size(174, 26);
             EquippedCard2.TabIndex = 4;
             EquippedCard2.Text = "Empty";

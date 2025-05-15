@@ -108,9 +108,9 @@ namespace BurnCardSelector
                 { "bc_hunt_soldier", "Thin_The_Ranks" },
                 { "bc_hunt_spectre", "Urban_Renewal" },
                 { "bc_hunt_pilot", "Most_Wanted_List" },
-                { "bc_dice_ondeath", "Select_A_Burn_Card" },
+                { "bc_auto_refill", "Select_A_Burn_Card" },
                 { "pdata_null", "Empty" },
-                { "bc_auto_refill", "Roll_The_Dice" }
+                { "bc_dice_ondeath", "Roll_The_Dice" }
             };
             cardNameToCardID = cardIDToCardName.ToDictionary(pair => pair.Value, pair => pair.Key);
             foreach (var ID in cardIDToCardName)
@@ -254,6 +254,7 @@ namespace BurnCardSelector
             currentCardsInInv = 0;
             //copy save slot dict into inventory dict
             cardIDInventoryDic.Clear();
+            CardInventoryTable.Rows.Clear();
             int selectedIndex = LoadoutsListBox.SelectedIndex;
             foreach (string key in saveSlots[selectedIndex].Keys)
             {
@@ -285,6 +286,7 @@ namespace BurnCardSelector
             equippedCardSlot3[LoadoutsListBox.SelectedIndex] = cardNameToCardID[EquippedCard2.Text];
             //copy dict into save slot
             int selectedIndex = LoadoutsListBox.SelectedIndex;
+            saveSlots[selectedIndex].Clear();
             foreach (string key in cardIDInventoryDic.Keys)
             {
                 saveSlots[selectedIndex][key] = cardIDInventoryDic[key];
